@@ -1,0 +1,277 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+ }
+ body {
+   font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+ }
+ p{
+   letter-spacing: 1px;
+}
+ a{
+    text-decoration: none;
+ }
+
+ .header__innner{
+    display: flex;
+ }
+ .header__innner__logo{
+    text-align: center;
+    letter-spacing: 0.5vw;
+    position: fixed;
+    z-index: 999;
+    top: 3vh;
+    left: 2vw;
+ }
+ .header__innner__list{
+    top: 3vh;
+    display: flex;
+    list-style: none;
+    position: absolute;
+    right: 5.5vw;
+     line-height: 4.5vw;
+     position: fixed;
+    z-index: 999;
+ }
+ .header__innner__list-item{
+    margin-right: 3.5vw;
+    color: black;
+ }
+ .header__innner__list-item a{
+    color: black;
+ }
+ .header__innner__list-item:hover{
+   margin-right: 3.5vw;
+   color: black;
+   background-color:rgba(97, 94, 94, 0.448);
+ }
+
+ .main-title{
+    text-align: center;
+ }
+ .main-title__innner{
+    text-decoration: underline;
+    margin-top: 5vh;
+ }
+ .main-title__sentence{
+    width: 30%;
+    margin: 0 auto;
+    padding-top: 2vh;
+ }
+ .main-title{
+   margin: 0 auto;
+}
+.sec01__box{
+   margin: 3vh 8vw;
+   text-align: center;
+   display: flex;
+   justify-content: flex-start;
+}
+
+
+.sec01_title{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ .sec01_title::after {
+   border-top: 3px solid;
+   content: "";
+   width: 9vw; /* 線の長さ */
+   margin-left: 1vw;
+ }
+ .sec01_title::before {
+   border-top: 3px solid;
+   content: "";
+   width: 9vw; /* 線の長さ */
+   margin-right: 1vw;
+ }
+.sec01_content{
+   flex-grow: 2;
+   margin-left: 8vw;
+}
+ .sec01__job-title{
+   margin: 4vh;
+  }
+
+ .sec01__job-subtitle{
+   margin: 4vh;
+   font-size: large;
+   font-weight: bold;
+  }
+  .sec01__job-contents{
+   margin: 4vh auto;
+   width: 90%;
+  }
+  .sec01_plate_shop_photo_box{
+   margin: 5vh 0vw 10vh 5vw;
+}
+.sec01_plate_job_photo_box{
+   margin: 5vh  0vh 10vh 5vw;
+}
+.sec01_plate_photo_contents{
+width: 20vw;
+}
+.sec01_shop_photo_contents{
+   width: 20vw;
+}
+.sec01_job_photo_contents{
+width:15vw;
+height:25vw;
+}
+  .sec02__title{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ .sec02__title::after {
+   border-top: 3px solid;
+   content: "";
+   width: 11vw; /* 線の長さ */
+   margin-left: 1vw;
+ }
+ .sec02__title::before {
+   border-top: 3px solid;
+   content: "";
+   width: 11vw; /* 線の長さ */
+   margin-right: 1vw;
+ }
+  .sec02__inner{
+   display: flex;
+   justify-content: center;
+   margin-top: 10vh;
+}
+.sec02_spring{
+   width: 40%;
+   text-align: center;
+   margin-right: 2vw;
+}
+.sec02_spring_title{
+   margin: 2vw;
+}
+.sec02_spring_photo_contents{
+   width: 40vw;
+   border-radius: 8px;
+   height: 50vh;
+}
+.sec02_running{
+   width: 40%;
+   text-align: center;
+   margin-left: 2vw;
+}
+.sec02_running_title{
+   margin: 2vw;
+}
+.sec02_running_photo_contents{
+   width: 40vw;
+   border-radius: 8px;
+   height: 50vh;
+}
+
+
+
+
+.sec03__box{
+   margin: 10vh 8vw 1vh 8vw;
+   text-align: center;
+   display: flex;
+   justify-content: flex-start;
+}
+
+.sec03_programing_code_photo_box{
+   margin: 5vh 0vw 3vh 5vw;
+}
+.sec03_programing_me_photo_box{
+   margin: 5vh  0vh 10vh 2vw;
+}
+.sec03_programing_code_contents{
+width: 20vw;
+}
+
+.sec03_programing_me_contents{
+width:15vw;
+height:25vw;
+}
+.sec03_title{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ .sec03_title::after {
+   border-top: 3px solid;
+   content: "";
+   width: 9vw; /* 線の長さ */
+   margin-left: 1vw;
+ }
+ .sec03_title::before {
+   border-top: 3px solid;
+   content: "";
+   width: 9vw; /* 線の長さ */
+   margin-right: 1vw;
+ }
+.sec03_content{
+   flex-grow: 2;
+}
+ .sec03__programing-title{
+   margin: 4vh;
+  }
+
+ .sec03__programing-subtitle{
+   margin: 4vh;
+   font-size: large;
+   font-weight: bold;
+  }
+  .sec03__programing-contents{
+   margin: 4vh auto;
+   width: 70%;
+  }
+  .footer {
+   width: 100vw;
+   height: 25vh;
+   display: block;
+   background-color:black;
+   position: relative;
+   margin-top:  10vh;
+}
+.footer__inner{
+   height: 100%;
+   margin: 0 auto;
+   text-align: center;
+}
+.footer__inner_copy{
+   color: aliceblue;
+   top: 50%;
+   left: 50%;
+   position: absolute;
+   transform: translate(-50%, -50%);
+}
+.start {
+	background: #FFF;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 9000;
+   text-align: center;
+}
+.start p {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	display: none;
+	z-index: 9999;
+	width: 600px;
+   font-size: 30px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+
+
+
+
+
+
