@@ -2,6 +2,16 @@
    box-sizing: border-box;
    margin: 0;
 }
+.fadein-box{
+   opacity: 0;
+   transform: translate(0 50px);
+   transition:  2s;
+ }
+ /*スクロールで出てくる要素*/
+ .action{
+   opacity: 1;
+   transform: translate(0 0);
+ }
 body {
    font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
  }
